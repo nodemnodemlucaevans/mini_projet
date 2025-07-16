@@ -1,0 +1,125 @@
+.box{
+    text-align: center;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    max-width: 100vw;
+    max-height: 100vh;
+    height: auto;
+    border: 2px solid black;
+    gap: 20px;
+    display: flex;
+}
+.content{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    max-width: 100vw;
+    max-height: 100vh;
+    transform: translate(+12%, +0%);
+    
+}
+.uno{
+    border-top: 2px solid black;
+}
+.last{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+   text-align: justify;
+  margin-top: 70px;
+  border-top: 3px solid black;
+   border-radius: 2%;
+}
+.nom{
+    color: green ;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 19px;
+}
+.adress{
+    text-align: left;
+    margin-top: 17px;
+    font-size: 17px;
+}
+p{
+    margin: 0px;
+    font-size: 17px;
+}
+.un{
+    text-align: justify;
+    color: green;
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.deux{
+    text-align: justify;
+    font-size: 17px;
+    margin-top:17px ;
+}
+.trois{
+    text-align: justify;
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.quatre{
+    color:#3333ce ;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.cinq{
+   font-size: 17px; 
+   text-align: left;
+}
+.six{
+     text-align: justify;
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sept{
+     color:#3333ce ;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.neuf{
+    font-size: 17px; 
+   text-align: left;
+}
+.dix{
+    color:#3333ce ;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 17px; 
+}
+.douze{
+     font-size: 17px; 
+   text-align: left;
+}
+.treize{
+  text-align: justify;
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.quatorze{
+    font-size: 17px; 
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom:70px ;
+}
