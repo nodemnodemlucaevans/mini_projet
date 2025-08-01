@@ -1,0 +1,64 @@
+body{
+    background-image: url(image/pexels-kamrujjamanjewel-24866509.jpg);
+    background-size: 1920px;
+}
+.logo img{
+    width: 90px;
+    height: auto;
+}
+.entete{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+   text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: transparent;
+   color: white;
+   margin-top: 30px;
+}
+a{
+    color: white;
+    margin-right: 70px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.text{
+    color: white;
+    margin-top: 150px;
+}
+.titre{
+    font-size: 95px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+.ecrit{
+    margin-top: 25px;
+    font-size: 20px;
+}
+button{
+    margin-top: 30px;
+    width: 160px;
+    height: 35px;
+    background-color: gold;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.image{
+    width: 10px;
+    height: auto;
+}
+.page{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

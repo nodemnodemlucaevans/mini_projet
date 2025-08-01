@@ -1,0 +1,45 @@
+body{
+    background-image: url(image/pexels-karolina-grabowska-5718025.jpg);
+    background-size: 1550px;
+    color: white;
+}
+.titre{
+    margin-top: 85px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.soustitre{
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.formulaire{
+    margin-bottom: 50px;
+}
+p{
+    margin-bottom: 40px;
+   
+}
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    border-color: transparent;
+    background-color:transparent;
+}
+label{
+   font-size: 30px;
+}
+button{
+    margin-top: 30px;
+    width: 160px;
+    height: 35px;
+    background-color: gold;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.numeros{
+    margin-top: 30px;
+    font-size: 30px;
+}

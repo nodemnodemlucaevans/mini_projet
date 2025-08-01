@@ -1,0 +1,71 @@
+body {
+  background: #f5f5f5;
+  font-family: sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.todo-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 2000px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  width: 1500px;
+  height: 50px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+button {
+  padding: 8px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  padding: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+li span {
+  flex: 1;
+}
+
+li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ajout{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.point{
+    display: flex;
+}
