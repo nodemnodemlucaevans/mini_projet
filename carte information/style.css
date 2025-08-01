@@ -1,0 +1,35 @@
+body {
+   background-color: rgb(133, 131, 131);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.photo{
+    width: 220px;
+    height: 300px;
+}
+
+.card {
+    background-color: rgb(170, 84, 84);
+    max-width: 600px;
+    border-radius: 15px;
+    display: flex;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2) ;
+     align-items: center;
+}
+.text{
+    flex: 1;
+transform: translate(+10%);
+}
+.nom{
+    margin-bottom: 30px;
+    color: white;
+}
+.git{
+    margin-top: 10px;
+}
