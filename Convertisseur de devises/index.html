@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Convertisseur de Devises</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2> Convertisseur</h2>
+
+    <label>Montant</label>
+    <input type="number" id="amount" placeholder="Ex: 1000" />
+
+    <label>De (devise)</label>
+    <select id="from">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="XAF">XAF</option>
+    </select>
+
+    <label>Vers (devise)</label>
+    <select id="to">
+      <option value="XAF">XAF</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+
+    <button onclick="convertir()">Convertir</button>
+
+    <div id="result">Résultat ici...</div>
+  </div>
+</body>
+</html>
