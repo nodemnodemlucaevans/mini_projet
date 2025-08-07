@@ -1,11 +1,20 @@
-body{
+.body_Background{
     background-image: url(image/pexels-kamrujjamanjewel-24866509.jpg);
     background-size: 1920px;
+}
+.body_contact{
+    background-image: url(image/pexels-karolina-grabowska-5718025.jpg);
+    background-size: 1550px;
+    color: white;
 }
 .logo img{
     width: 90px;
     height: auto;
 }
+.logo{
+    display: flex;
+}
+.nom{padding: 30px 0px;}
 .entete{
     font-size: 20px;
     display: flex;
@@ -16,7 +25,8 @@ body{
     margin-right: 50px;
    text-decoration: none;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   background-color: transparent;
+    background-color:black ;
+    height: auto;
    color: white;
    margin-top: 30px;
 }
@@ -29,6 +39,7 @@ a{
 .text{
     color: white;
     margin-top: 150px;
+    margin-left: 200px;
 }
 .titre{
     font-size: 95px;
@@ -38,6 +49,7 @@ a{
 .ecrit{
     margin-top: 25px;
     font-size: 20px;
+    
 }
 button{
     margin-top: 30px;
@@ -61,4 +73,73 @@ button{
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.titre{
+    font-size: 50px;
+    color: gold;
+    padding-top: 0px;
+}
+.formule{
+    width: 400px;
+    height: 470px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 50px ;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.formulaire{
+    padding: 20px 100px 100px 100px;
+    height: 200px;
+}
+.formulaire p{
+    width: 300px;
+    height: auto;
+    padding: 0px 0px 20px 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.numeros{
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    text-align: justify;
+}
+.formulaire input{
+     background-color: transparent;
+     border-color: transparent;
+}
+.soustitre{
+    color: black;
+}
+textarea{
+    height: 15px;
+    background-color: transparent;
+     border-color: transparent;
+}
+.photos img{
+    height: 350px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    text-align: right;
+}
+.recap{
+    margin-top: 60px;
+    font-size: 28px;
+}
+.nos{
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    color: rgb(9, 9, 9);
+}
+.page{
+    padding-top: 10px 0px ;
+}
+.text{
+    font-size: 20px;
 }

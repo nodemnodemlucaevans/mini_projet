@@ -1,35 +1,180 @@
 body {
-   background-color: rgb(133, 131, 131);
-    font-size: 20px;
+   background-image: url(image/8917.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1899px 1120px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: flex
+;
     margin: 0;
     height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
 }
-
-.photo{
-    width: 220px;
-    height: 300px;
-}
-
 .card {
-    background-color: rgb(170, 84, 84);
-    max-width: 600px;
+    position: relative;
+    width: 65vw;
+    height: 55vh;
+    max-width: 800px;
+    max-height: 400px;
     border-radius: 15px;
     display: flex;
     padding: 30px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2) ;
      align-items: center;
+     color:#00BFFF ;
+      box-shadow: 0 0 15px rgb(2, 2, 2);
+}
+.luca{
+    position: relative;
+    margin-left: 10px;
+    background-color: transparent;
+    height: 115%;
+    min-width: 100px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bleuclair{
+    background-color:#00BFFF  ;
+    flex: 1;
+}
+.bluefoncer{
+    background-color:#2C3E50 ;
+    flex: 1;
+}
+
+.photo{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    /* transform: translate(-177%, -50%); */
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    border: 9px solid white;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    
+}
+a{
+    
+    color: #2C3E50;
 }
 .text{
+    position: relative;
     flex: 1;
-transform: translate(+10%);
+    width: 100%;
+    padding-left: 30px;
+    /*transform: translate(+10%);*/
+    color: #2C3E50;
+}
+hr{
+    width: 80%;
+}
+.soustitre{
+   
+    margin-top: 60px;
 }
 .nom{
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: -50px;
+    font-weight: bolder;
+    width: 100%;
 }
 .git{
     margin-top: 10px;
 }
+img{
+    width: 30px;
+   
+   color: #2C3E50;
+}
+.telephone{
+    display: flex;
+    padding-bottom: 5px;
+}
+.message{
+    display: flex;
+    padding-bottom: 5px;
+}
+.monde{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.position{
+    display: flex;
+    padding-top: 5px;
+}
+.contact{
+    padding: 30px;
+    font-size: 2rem;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.color{
+    background-color: #00ff8c;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.num{
+    padding-left: 30px;
+}
+.li{
+    padding-left: 30px;
+}
+.lien{
+    padding-left: 30px;
+}
+.cla{
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .photo{
+        position: absolute;
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .photo{
+        position: absolute;
+        top: 40%;
+    }
+    .contact{
+        padding:10px;
+        font-size: 1rem;
+        padding-top: 50px;   
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 800px;
+        height: 400px;
+        display: flex;
+        padding: 30px;
+    }
+    .body{
+        font-size: 15px;
+        background-color: #00ff8c !important;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+    
+}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+    
+}*/

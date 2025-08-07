@@ -28,3 +28,18 @@ img{
     text-align: justify;
     font-size: 20px;
 }
+.entete{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+   text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:black ;
+    height: auto;
+   color: white;
+   margin-top: 30px;
+}
